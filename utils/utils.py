@@ -28,11 +28,11 @@ from monai.utils import (
 from monai.data import decollate_batch
 from monai.transforms import Invertd, SaveImaged
 
-NUM_CLASS = 6
+NUM_CLASS = 4
 
 
 TEMPLATE={
-    '01': [1,2,3,4,5,6]
+    '01': [1,2,3,4]
 }
 
 # TEMPLATE={
