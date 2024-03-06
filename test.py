@@ -27,7 +27,7 @@ from utils.utils import organ_post_process, threshold_organ
 
 torch.multiprocessing.set_sharing_strategy('file_system')
 
-NUM_CLASS = 4
+NUM_CLASS = 2
 
 def detransform_save(tensor_dict, input_transform, save_dir):
     post_transforms = Compose([
